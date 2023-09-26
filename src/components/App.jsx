@@ -1,11 +1,11 @@
 import { Suspense, lazy } from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
-import { Layout } from './components/Layout/Layout';
+import { Layout } from 'components/Layout/Layout';
 import { Loader } from 'components/Loader/Loader';
 
-const Home = lazy(() => import('./pages/Home/Home'));
-const MovieDetails = lazy(() => import('./pages/MovieDetails/MovieDetails'));
-const Movies = lazy(() => import('./pages/Movies/Movies'));
+const Home = lazy(() => import('pages/Home/Home'));
+const MovieDetails = lazy(() => import('pages/MovieDetails/MovieDetails'));
+const Movies = lazy(() => import('pages/Movies/Movies'));
 const Cast = lazy(() => import('components/Cast/Cast'));
 const Reviews = lazy(() => import('components/Reviews/Reviews'));
 
