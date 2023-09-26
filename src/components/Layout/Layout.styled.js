@@ -21,7 +21,7 @@ export const HomeLink = styled(Link)`
   display: flex;
   font-weight: 500;
   font-size: 24px;
-  color: #7183f2;
+  color: #77a695;
   text-decoration: none;
   ::after {
     content: '';
@@ -30,7 +30,7 @@ export const HomeLink = styled(Link)`
     width: 0;
     height: 0;
     border-top: 12px solid transparent;
-    border-left: 21px solid #7183f2;
+    border-left: 21px solid #b4d9cc;
     border-bottom: 12px solid transparent;
   }
 `;
@@ -39,7 +39,7 @@ export const SearchLink = styled(Link)`
   display: block;
   font-weight: 500;
   font-size: 24px;
-  color: #7f8ff4;
+  color: #b4d9cc;
   text-decoration: none;
   font: inherit;
   border: 0;
@@ -48,11 +48,11 @@ export const SearchLink = styled(Link)`
   padding: 12px 36px;
 
   :hover {
-    color: #7183f2;
+    color: #77a695;
   }
 
   :active {
-    color: #7f8ff4;
+    color: #77a695;
   }
 `;
 

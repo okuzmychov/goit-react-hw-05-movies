@@ -12,7 +12,7 @@ export const GetBackButton = styled(Link)`
   display: inline-block;
   background: transparent;
   color: white;
-  background-color: #7f8ff4;
+  background-color: #55786b;
   font: inherit;
   border: 0;
   outline: 0;
@@ -24,11 +24,11 @@ export const GetBackButton = styled(Link)`
   padding: 12px 36px;
 
   :hover {
-    background: #7183f2;
+    background: #55786b;
   }
 
   :active {
-    background: #7f8ff4;
+    background: #55786b;
     box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);
   }
 `;
